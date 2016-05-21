@@ -50,6 +50,7 @@ wp="install_log/log_wget_php"
         wget --no-check-certificate https://raw.githubusercontent.com/iTXTech/Genisys/master/start.sh >>./$l 2>>./$le
         chmod 777 start.sh >>./$l 2>>./$le
         wget https://jenkins.mcper.cn/job/Genisys-master/393/artifact/artifact/Genisys_1.1dev-393.phar >>./$l 2>>./$le
+        chmod 777 Genisys*.phar >>./$l 2>>./$le
 	echo
 #	fi
 	echo "Genisys> Installing PHP binary..."
