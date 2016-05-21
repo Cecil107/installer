@@ -14,8 +14,7 @@ echo
 echo "Genisys> Select which PHP binary you want to install:"
 echo "Genisys>   1) Linux x64(64-bit)"
 echo "Genisys>   2) Exit Genisys installation"
-read -e -p "system> Number (e.g. 1): " a
-read -e -p "system> Number (e.g. 1): " a </dev/tty
+read -e -p "Genisys> Number (e.g. 1): " a </dev/tty
  case "$a" in 
 	1 ) z="Linux";;
 	2 ) exit 1;;
@@ -77,7 +76,7 @@ fi
 		fi
         
         echo
-        echo "system> Genisys installation completed! Run ./start.sh (or ./st*) to start ImagicalMine."
+        echo "Genisys> Genisys installation completed! Run ./start.sh (or ./st*) to start Genisys."
 #        shopt -u extglob
 # fi
 rm -rf Linux64.sh
