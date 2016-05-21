@@ -1,5 +1,5 @@
 #!/bin/bash
-# ImagicalMine Installation Script for Linux(master)
+# Genisys Installation Script for Linux(master)
 while :
 do
 clear
