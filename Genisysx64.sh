@@ -53,7 +53,7 @@ wp="install_log/log_wget_php"
 	mkdir install_log
 #        echo >> start.sh
 	echo "Systém> Instaluji ImagicalMine..."
-	wget https://github.com/ImagicalCorp/ImagicalMine/archive/master.zip >>./$w 2>>./$w
+	wget https://github.com/iTXTech/Genisys/archive/master.zip >>./$w 2>>./$w
 	chmod 777 master.zip >>./$l 2>>./$le
 	unzip -o master.zip >>./$l 2>>./$le
 	chmod 777 ImagicalMine-master >>./$l 2>>./$le
@@ -64,9 +64,9 @@ wp="install_log/log_wget_php"
 	cd .. >>../$l 2>>../$le
 	rm -rf ImagicalMine-master >>./$l 2>>./$le
 	rm -rf master.zip >>./$l 2>>./$le
-        wget --no-check-certificate https://raw.githubusercontent.com/ImagicalCorp/ImagicalMine/master/start.sh >>./$l 2>>./$le
+        wget --no-check-certificate https://raw.githubusercontent.com/iTXTech/Genisys/master/start.sh >>./$l 2>>./$le
         chmod 777 start.sh >>./$l 2>>./$le
-        wget http://imagicalcorp.github.io/ImagicalMine/service-download/ImagicalMine.phar >>./$l 2>>./$le
+        wget https://ci.itxtech.org/job/Genisys/lastSuccessfulBuild/artifact/artifact/Genisys_Kyrios_82f9e7f.phar >>./$l 2>>./$le
 	echo
 #	fi
 	echo "Systém> Instaluji PHP binární soubory..."
