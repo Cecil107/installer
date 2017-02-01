@@ -86,7 +86,6 @@ fi
         
         echo
         echo "Systém> Instalace ImagicalMine dokončena! Použij ./start.sh (nebo ./st*) pro zapnutí ImagicalMine."
-        echo "Systém> Preložil a upravil Cecil107"
 #        shopt -u extglob
 # fi
 rm -rf IMx*
