@@ -1,14 +1,5 @@
 #!/bin/bash
-# ImagicalMine Installation Script for MacOS and Linux(master)
-#  _    _            _    _______ 
-# | |  | |    /\    | |  |__   __|
-# | |__| |   /  \   | |     | |   
-# |  __  |  / /\ \  | |     | |   
-# | |  | | / ____ \ | |____ | | _ 
-# |_|  |_|/_/    \_\|______||_|(_)
-# 
-# This file is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
-# Before you start doing anything, read the license for more detail into what you are allowed to do and not do.
+
 while :
 do
 clear
